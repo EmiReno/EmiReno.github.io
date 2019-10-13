@@ -50,10 +50,11 @@ table {
 }
 
 /* First CSS! Ignore Lines 3-32*/
-body {
   #grad {
-  background-image: linear-gradient(white, light blue);
+  background-image: linear-gradient (white, light blue);
 }
+
+body {
   font-family: Bookman Old Style, serif;
 	margin:
 	padding:
