@@ -51,6 +51,13 @@ table {
 
 /* First CSS! Ignore Lines 3-32*/
 body {
-  background-color: #e0eeff;
-  font-family: Bookman Old Style
+  background-color: #e3fcff;
+  font-family: Bookman Old Style, serif;
+	margin:
+	padding:
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Calibri, sans-serif;
+color: #300399;
 }
