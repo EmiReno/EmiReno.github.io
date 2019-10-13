@@ -52,7 +52,7 @@ table {
 /* First CSS! Ignore Lines 3-32*/
 body {
   #grad {
-  background-image: linear-gradient(#dcfbfc, #9b02fa);
+  background-image: linear-gradient(white, light blue);
 }
   font-family: Bookman Old Style, serif;
 	margin:
