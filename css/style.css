@@ -49,14 +49,15 @@ table {
 	border-spacing: 0;
 }
 
-/* First CSS! Ignore Lines 3-32*/
+/* First CSS! Ignore Lines 3-50*/
   
 body {
 	color: black;
-	background-color: linear-gradient (gray);
+	background-color: (gray);
 	margin: 2em;
 	padding: 1em;
-  font-family: Bookman Old Style, serif;
+	border: 1em; color: black
+  	font-family: Bookman Old Style, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
