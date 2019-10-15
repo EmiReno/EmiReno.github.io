@@ -53,14 +53,16 @@ table {
   
 body {
 background-color: #grad {
-  background-image: linear-gradient (white, blue);
+  background-image: linear-gradient (blue);
 }
   font-family: Bookman Old Style, serif;
-	margin:
-	padding:
+	margin: 2em
+	padding: 1em
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family: Calibri, sans-serif;
 color: #7298cc;
 }
+p{margin-left: 2em}
+ul, ol {margin; 1em}
