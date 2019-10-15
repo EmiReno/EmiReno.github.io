@@ -52,7 +52,7 @@ table {
 /* First CSS! Ignore Lines 3-32*/
   
 body {
-background-color: linear-gradient (white, blue);
+background-color: linear-gradient (gray);
 	margin: 2em
 	padding: 1em
   font-family: Bookman Old Style, serif;
@@ -67,3 +67,13 @@ color: #7298cc;
 p{margin-left: 2em}
 
 ul, ol {margin; 1em}
+
+Heading {
+	margin: auto;
+	padding: auto;
+}
+
+Footer {
+	margin: auto;
+	padding: auto;
+}
