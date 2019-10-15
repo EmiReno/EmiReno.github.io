@@ -65,9 +65,14 @@ font-family: Calibri, sans-serif;
 color: #7298cc;
 }
 
-p{margin-left: 2em}
+p {
+	word-spacing:30px;
+	margin-left: 2em;
+}
 
-ul, ol {margin: 1em}
+ul, ol {
+	margin: 1em;
+}
 
 Heading {
 	margin: auto;
