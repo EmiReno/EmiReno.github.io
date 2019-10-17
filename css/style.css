@@ -51,7 +51,13 @@ table {
 
 /* First CSS! Ignore Lines 3-50*/
 
-
+/*Navigation Nonsense*/
+.topnav {
+	text-align: center;
+	color: blue;
+	padding: 14x 16px;
+	font-size: 17px;
+}
 
 body {
 	color: black;
