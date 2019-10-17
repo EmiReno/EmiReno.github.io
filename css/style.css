@@ -70,6 +70,10 @@ body {
   	font-family: Bookman Old Style, serif;
 }
 
+#grad {
+	background-image: linear-gradient(blue, white);
+}
+
 .active {
 	background-color: green;
 }
