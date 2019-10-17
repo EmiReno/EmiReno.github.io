@@ -116,7 +116,7 @@ ol {
 li {
 	display: inline;
 	padding: auto;
-	margin: 1em;
+	margin: 0 auto;
 }
 
 heading {
