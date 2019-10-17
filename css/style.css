@@ -58,6 +58,7 @@ table {
 	color: blue;
 	padding: 14x 16px;
 	font-size: 17px;
+	
 }
 
 body {
@@ -103,6 +104,9 @@ ol {
 	list-style: square;
 }
 
+li {
+	display: inline;
+}
 heading {
 	margin: auto;
 	padding: auto;
