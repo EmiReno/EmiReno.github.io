@@ -51,7 +51,7 @@ table {
 
 /* First CSS! Ignore Lines 3-50*/
 
-/*Navigation Nonsense*/
+/*Navigation Nonsense; save #f9f2ff (off white purple)*/
 
 .topnav {
 	background-color: blue;
@@ -66,15 +66,11 @@ table {
 
 body {
 	color: black;
-	background-color: #f9f2ff;
+	background-color: #grad {background-image: linear-gradient(blue, white);}
 	margin: 2em;
 	padding: 1em;
 	border: 1em; color: black
   	font-family: Bookman Old Style, serif;
-}
-
-#grad {
-	background-image: linear-gradient(blue, white);
 }
 
 .active {
