@@ -50,7 +50,9 @@ table {
 }
 
 /* First CSS! Ignore Lines 3-50*/
-  
+
+
+
 body {
 	color: black;
 	background-color: #f9f2ff;
@@ -82,9 +84,16 @@ p {
 	margin-left: 2em;
 }
 
-ul, ol {
+ul {
 	margin: 1em;
 	margin-left: 2em;
+	list-style: disc;
+}
+
+ol {
+	margin: 1em;
+	margin-left: 2em;
+	list-style: square;
 }
 
 Heading {
