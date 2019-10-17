@@ -66,8 +66,8 @@ table {
 
 body {
 	color: black;
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,127,37,1) 50%, rgba(211,162,248,1) 75%);
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(177,83,247,1) 26%, rgba(57,140,81,1) 89%);
 	margin: 2em;
 	padding: 1em;
 	border: 1em; color: black
