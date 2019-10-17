@@ -52,6 +52,7 @@ table {
 /* First CSS! Ignore Lines 3-50*/
 
 /*Navigation Nonsense*/
+
 .topnav {
 	text-align: center;
 	color: blue;
@@ -102,12 +103,12 @@ ol {
 	list-style: square;
 }
 
-Heading {
+heading {
 	margin: auto;
 	padding: auto;
 }
 
-Footer {
+hooter {
 	margin: auto;
 	padding: auto;
 }
