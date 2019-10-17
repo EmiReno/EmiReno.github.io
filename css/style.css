@@ -110,13 +110,16 @@ ol {
 
 li {
 	display: inline;
+	padding: auto;
+	margin: 1em;
 }
+
 heading {
 	margin: auto;
 	padding: auto;
 }
 
-hooter {
+footer {
 	margin: auto;
 	padding: auto;
 }
