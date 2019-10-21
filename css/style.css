@@ -108,8 +108,8 @@ p.mix {border-style: dotted dashed solid double;}
 
 ul {
 	margin: 1px;
-	margin-left: 2px;
-	margin-right: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
 	list-style: disc;
 	text-align: center;
 }
