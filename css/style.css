@@ -65,7 +65,7 @@ table {
 
 body {
 	color: black;
-	background color: 800000 /*Maroon*/;
+	background color: marroon;
 	margin: 2em;
 	padding: 1em;
 	border: 1em; color: black
@@ -73,12 +73,12 @@ body {
 }
 
 .active {
-	background-color: green;
+	background-color: blue;
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family: Calibri, sans-serif;
-color: #139402;
+color: blue;
 }
 
 h1 {font-size: 50px}
