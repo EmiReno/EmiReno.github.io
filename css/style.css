@@ -53,7 +53,6 @@ table {
 
 
 .topnav {
-	background-color: white;
 	text-align: center;
 	color: black;
 	padding: 14x 16px;
@@ -64,18 +63,18 @@ table {
 }
 
 body {
-	color: black;
-	background-color: #f6e3ff;
+	color: #613A43; /*Burgundy*/
+	background-color: #36384C; /*Charcoal*/
 	margin: 2em;
 	padding: 1em;
 	font-size: 25px;
-	border: 1em; color: black
+	border: 1em; color: #E3BAB3 /*Petal*/
   	font-family: Bookman Old Style, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family: Calibri, sans-serif;
-color: blue;
+color: #849974 /*Fresh = Green*/;
 }
 
 h1 {font-size: 50px}
