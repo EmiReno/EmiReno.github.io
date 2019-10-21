@@ -139,7 +139,7 @@ footer {
 }
 
 .navigation-box {
-  width: 350px;
+  width: auto;
   height: 150px;
   margin: 25px;
   padding: 25px;
