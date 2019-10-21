@@ -107,8 +107,8 @@ p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
 ul {
-	margin: 1em;
-	margin-left: 2em;
+	margin: 150px;
+	margin-left: 2px;
 	list-style: disc;
 	text-align: center;
 }
