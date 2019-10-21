@@ -78,6 +78,18 @@ body {
 	border: 1em; color: #E3BAB3 /*Petal*/
   	font-family: Bookman Old Style, serif;
 }
+ 
+a:link {
+  color: #E9DCCD; /* Cream; unvisited link */
+}
+
+a:visited {
+  color: #849974; /* Green; visited link */
+}
+
+a:active {
+  color: #E3BAB3; /* Petal; selected link */
+} 
 
 h1, h2, h3, h4, h5, h6 {
 font-family: Calibri, sans-serif;
