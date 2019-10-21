@@ -138,10 +138,17 @@ footer {
 	padding: 0 auto;
 }
 
-.box {
+.navigation-box {
   width: 350px;
   height: 150px;
   margin: 25px;
   padding: 25px;
   border: 5px solid black;
+}
+.content-box {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 5px solid purple;
 }
