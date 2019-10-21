@@ -140,9 +140,9 @@ footer {
 
 .navigation-box {
   width: auto;
-  height: 150px;
+  height: auto;
   margin: auto;
-  padding: 150px;
+  padding: auto;
   border: 5px solid black;
 }
 .content-box {
