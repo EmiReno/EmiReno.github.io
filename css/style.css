@@ -141,8 +141,7 @@ ol {
 li {
 	position: sticky;
 	display: inline-block;
-	background-color: grey;
-	color: green;
+	color: #849974 /*Green*/;
 	padding: auto;
 	margin: 1em auto;
 	align: center;
