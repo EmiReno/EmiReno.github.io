@@ -53,9 +53,9 @@ table {
 
 
 .topnav {
-	background-color: blue;
+	background-color: white;
 	text-align: center;
-	color: blue;
+	color: black;
 	padding: 14x 16px;
 	font-size: 25px;
 	width: 0 auto;
@@ -65,7 +65,7 @@ table {
 
 body {
 	color: black;
-	background color: #f39cff;
+	background-color: #f39cff;
 	margin: 2em;
 	padding: 1em;
 	border: 1em; color: black
