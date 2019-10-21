@@ -91,8 +91,8 @@ h5 {font-size: 30px}
 h6 {font-size: 25px}
 
 p {
-	margin-bottom: 1em;
-	margin-left: 2em;
+	margin-bottom: 0.5px;
+	margin-left: 1px;
 }
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
@@ -129,13 +129,13 @@ li {
 }
 
 header {
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: auto;
+	padding: auto;
 }
 
 footer {
-	margin: 0 auto;
-	padding: 0 auto;
+	margin: auto;
+	padding: auto;
 }
 
 .navigation-box {
