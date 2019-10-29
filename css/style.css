@@ -166,10 +166,29 @@ header {
   padding: auto;
   border: 5px solid #849974 /*Fresh = Green*/;
 }
+
 .content-box {
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
   border: 5px solid #849974 /*Fresh = Green*/;
+}
+
+.left-content-box {
+  body {text-align:left};
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 5px solid #849974 /*Fresh = Green*/;	
+}
+
+.right-content-box {
+  body {text-align:right};
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 5px solid #849974 /*Fresh = Green*/;	
 }
