@@ -165,15 +165,11 @@ header {
   border: 5px solid #849974 /*Fresh = Green*/;
 }
 
-.content-box {
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+.content-box {overflow: auto;
   border: 5px solid #849974 /*Fresh = Green*/;
 }
 
-.content-box {overflow: auto;}  
+ .content-box img {padding: 0 20px 20px 20px;}
 
 .left-content-box {
   body {text-align:left};
