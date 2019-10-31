@@ -71,7 +71,7 @@ table {
 
 body {
 	color: #E9DCCD; /*Cream*/
-	background-color: #36384C; /*Charcoal*/
+	background-color: #eee5fb; /*Lilac*/
 	margin: 2em;
 	padding: 1em;
 	font-size: 25px;
@@ -165,8 +165,8 @@ header {
 }
 
 .content-box {overflow: auto;
-  background-color: #eee5fb /*Lilac*/;
-border: 5px solid #849974 /*Fresh = Green*/;
+  background-color: #36384C; /*Charcoal*/
+  border: 5px solid #849974 /*Fresh = Green*/;
 }
 
  .content-box img {padding: 0 20px 20px 20px;}
