@@ -56,7 +56,6 @@ table {
 #E3BAB3 Petal
 #613A43 Burgundy
 #849974 Fresh (Green)
-#36384C
 #eee5fb Lilac
 */
 
@@ -166,7 +165,8 @@ header {
 }
 
 .content-box {overflow: auto;
-  border: 5px solid #849974 /*Fresh = Green*/;
+  background-color: #eee5fb /*Lilac*/;
+border: 5px solid #849974 /*Fresh = Green*/;
 }
 
  .content-box img {padding: 0 20px 20px 20px;}
