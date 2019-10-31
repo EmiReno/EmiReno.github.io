@@ -112,6 +112,12 @@ p {
 	margin-bottom: 0.5px;
 	margin-left: 1px;
 }
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
 p.solid {border-style: solid;}
