@@ -57,6 +57,7 @@ table {
 #613A43 Burgundy
 #849974 Fresh (Green)
 #36384C
+#eee5fb Lilac
 */
 
 .topnav {
@@ -152,8 +153,7 @@ header {
 	padding: auto;
 }
 
-.footer,.push 
-{
+.footer,.push {
   height: 50px;
 }
 
