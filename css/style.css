@@ -118,6 +118,11 @@ P.blocktext {
     margin-right: auto;
     width: 50em
 }
+
+.doublespace {
+  line-height: 2 ;
+} 
+
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
 p.solid {border-style: solid;}
