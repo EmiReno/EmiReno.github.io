@@ -172,6 +172,7 @@ header {
 }
 
 .content-box {overflow: auto;
+  padding: 20px;
   background-color: #36384C; /*Charcoal*/
   border: 5px solid #849974 /*Fresh = Green*/;
 }
