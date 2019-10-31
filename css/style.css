@@ -157,6 +157,7 @@ header {
 }
 
 .navigation-box {
+  background-color: #36384C; /*Charcoal*/
   width: 100%;
   height: 100%;
   margin: auto;
