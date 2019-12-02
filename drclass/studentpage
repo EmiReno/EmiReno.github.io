@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<header id="header">
+
+<title>DigiRhet Class Project: Word Cloud Adventure</title>
+  <p> DigiRhet Classroom</p>
+  <nav class="nav"> <!--Left-justified; beneath title-->
+    <ul class="nav">
+      <li>Assignment</li>
+      <li>Theory</li>
+      <li>Methdology</li>
+    </ul>
+    </nav>
+  <p>Andrews Sprite Image <!--Contact information follows beneath?--> </p>
+</header>
+
+<body id="class page">
+  <header id="page"> <!-- Sprites (and Sprites) in place of Names. Each image/words will link to students' reflections-->
+    <h1> Select a Student </h1>
+    <table style="width: 100%">
+  <tr>
+    <td> Carolina Avsar </td>
+    <td> Michael Fitch </td>
+    <td> Ethan Gross </td>
+  </tr>
+  <tr>
+    <td> Sydney Spangler </td>
+    <td> Philly Vasquez </td>
+    <td> Elizabeth Mock </td>
+  </tr>
+  <tr>
+    <td> Nicole Rothenay </td>
+    <td> Kelsy Mascorro </td>
+    <td> Emille Moreno </td>
+  </tr>
+</table>
+<p> Each DigiRhet student has a different story. Learn more about where they are coming from and how they ponder digital rhetoric as a field and the usefulness of distant reading practices</p>
+  </body>
+  </html>
