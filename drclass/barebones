@@ -1,7 +1,19 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>DigiRhet Class Project: Bones</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    </html>
+<html lang="en">
+<header id="header">
+  <title>DigiRhet Class Project: Word Cloud Adventure</title>
+  <p> Project Developers' Names</p>
+</header>
+<body id="home page">
+  <header id="page">
+      <h1> Introduction of Project </h1>
+    <p>Andrews's Sprite </p>
+    <p>Mega Word Cloud <!--(Linkable)--> </p>
+    <p> Distant Reading Introduction <!--Scroll-able?--> </p>
+    <nav class="nav">
+      <ul class="nav">
+        <li> Andrews Contact...</li>
+      </ul>
+    </nav>
+  </header>
+</body>
