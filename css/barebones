@@ -404,3 +404,38 @@ pre code, pre tt {
   background-color: transparent;
   border: none;
 }
+
+.title-box {
+  background-color: #CCC17D; /*Tan*/
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  border: 5px solid #0D5BA0 /*Dark Cyan*/;
+}
+
+.navigation-box {
+  background-color: #CCC17D; /*Tan*/
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  border: 5px solid #1882E1; /*Royal Blue*/;
+}
+
+.andrews-box {
+  background-color: #CCC17D; /*Tan*/
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  border: 5px solid #60DBE1; /*Turquoise*/;
+  
+  .dr-content-box {
+  background-color: #CCC17D; /*Tan*/
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  border: 5px solid #0D5BA0; /*Dark Cyan*/;
+}
