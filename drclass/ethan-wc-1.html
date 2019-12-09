@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-      <title>Ethan's DigiRhet Cloud 1.0</title>
-    <link rel="stylesheet" type="text/css" href="">
-    <main class="container">
-      <div class="row">
+<html lang="en"> <!-- I added lines 3-6, we'll want to add it to all pages; it (esp. line 6) will ensure this displays scaled for screen sizes-->
+<head prefix="DC: http://purl.org/dc/terms/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, intitial-scale=1.0, shrink-to-fit-no" />
+
+  <title>ethan project 1</title>
+
+  <link rel="stylesheet" type="text/css" href="">
+
+</head>
+
+<body>
+  <header id="header"><h1>This will be our webtext's title on all pages</h1></header>
 <nav id="navigation">
   <ul>
       <li> <a href=""> Home/Introduction <!--Assignment Here--></a></li>
@@ -14,25 +22,22 @@
       <li> <a href=""> References </a></li>
   </ul>
 </nav>
-</div>
-  </head>
 
-<body>
-    <header><h1>Ethan</h1></header>
-      <img src="https://emireno.github.io/drclass/Images/Ethan.png" width="200" height="200" alt="sprite likeness of student"> 
-  <p> Design and Coding Assistant </p>
-  <nav id="profile">
-    <ul>
-      <li><h2><a href="https://emireno.github.io/drclass/studentprofile/ethan/secondwc.html"> Project 2.0 </a></h2><!--Differing Methdology Included Here?--></li>
-      <li><h2><a href="https://emireno.github.io/drclass/studentprofile/ethan/reflection.html"> Reflection</a></h2></li>
-   </ul>
-  </nav>
+<nav id="profile">
+  <img src="images/ethan.png" width="200" height="200" alt="sprite likeness of student">
+  <p> Design and Coding Assistant </p> <!--great work here; we can design these to shrink/go away on mobile -->
+  <ul>
+    <li><a href="ethan-wc-1.html"> Project 1.0 </a><!--Differing Methdology Included Here?  (maybe, let's keep that in our pockets -ca)--></li>
+    <li><a href="ethan-wc-2.html"> Project 2.0 </a></li>
+    <li><a href="ethan.html"> Reflection </a><!--Added reflection here so we can have the same nav on all pages; also need to just use <li> without <h2> tags for accessibility/semantics; it also means we can just copy/paste the first 33 lines or so from page to page on any one student's stuff, and use most of it for any student. -ca --></li>
+ </ul>
+</nav>
 
 <main class="container">
    <div class="column side">
     <h3>Project 1.0</h3> <!-- or [Journal 1.0 Findings]/Journal 2.0 Findings-->
      <div class="galleryimage">
-    
+
        <h4 class="tagcaption">Issue XX</h4>
   <!--Insert Word Cloud HTML-->
   </div>
@@ -47,10 +52,10 @@
 
 <!-- Insert HTML for your third word cloud, HTML only. Make sure div class is "htmltagcloud". Add "tagcaption" classed h3 and edit issue/year. Heading must be INSIDE htmltagcloud div. -->
   <div class="galleryimage">
-    
+
     <h4 class="tagcaption">Issue XX</h4>
      <!--Insert Word Cloud HTML-->
-  
+
   </div>
 
 <!-- Insert HTML for your fourth word cloud, HTML only. Make sure div class is "htmltagcloud". Add "tagcaption" classed h3 and edit issue/year. Heading must be INSIDE htmltagcloud div.  -->
@@ -58,20 +63,20 @@
     <h4 class="tagcaption">Issue XX</h4>
 
      <!--Insert Word Cloud HTML-->
-     
+
   </div>
 
 <!-- Insert HTML for your fifth word cloud, HTML only. Make sure div class is "htmltagcloud". Add "tagcaption" classed h3 and edit issue/year. Heading must be INSIDE htmltagcloud div.  -->
   <div class="galleryimage">
-    
+
     <h4 class="tagcaption">Issue XX</h4>
      <!--Insert Word Cloud HTML-->
 
 </div>
 
-<div class="column main">  
+<div class="column main">
 <h3>Rationale for Project </h3>
-  <!-- Insert Paragraph Discussion below -->  
+  <!-- Insert Paragraph Discussion below -->
 
 </div>
 </main>
