@@ -1,1 +1,244 @@
-div.classgrid{display: table-cell; float: left;}
+/* Eric Meyer CSS Reset Minified */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0;}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html{
+  font-size: 1.125em;
+  line-height: 1.222em;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: var(--color-white);
+  font-family: 'Nunito', sans-serif;
+}
+/* color variables */
+:root {
+  --color-black: #241f25;
+  --color-white: #eeeae3;
+  --color-gray: #908d8e;
+  --color-emphasis: #3E76E5;
+  --color-link: #8a816f;
+}
+
+/* Typography past base */
+h1{
+  font-size: 1.777em;
+  line-height: 1.376em;
+  padding-bottom: 0.688em;
+}
+h2{
+  font-size: 1.333em;
+  line-height: 1.375em;
+  padding-bottom: 0.917em;
+}
+
+h1, h2, h3, h4, h5{
+  color: var(--color-emphasis);
+}
+
+p, ul, ol{
+  padding-bottom: 1.222em;
+}
+li{
+  padding-bottom: 0.611em;
+}
+li:last-child{
+  padding-bottom: 0;
+}
+
+/* Navigation styles are mobile-first */
+nav ul, li{
+  list-style-type: none;
+  padding: 0;
+}
+#navigation {
+  background-color: var(--color-black);
+  line-height: .3;
+}
+#navigation a{
+  display: block;
+  background-color: var(--color-black);
+  color: var(--color-link);
+  border-top: .1em solid var(--color-white);
+  text-align: center;
+  padding: 0.722em;
+}
+#navigation a:hover{
+  background-color: var(--color-gray);
+  color: var(--color-emphasis);
+}
+#profile{
+  background-color: var(--color-black);
+  color: var(--color-white);
+  height: 2em;
+  text-align: center;
+  border-top: .1em solid var(--color-white);
+}
+#profile li {
+  display: inline-block;
+}
+#profile img{
+  display: inline-block;
+  float: left;
+  height: 2em;
+  width: 2em;
+}
+#profile p{
+  display: none;
+}
+#profile a{
+  display: inline-block;
+  background-color: var(--color-black);
+  color: var(--color-link);
+  margin: .1em;
+  padding: 0.333em 0;
+}
+#profile a:hover{
+  background-color: var(--color-gray);
+  color: var(--color-emphasis);
+}
+/* Layout styles (mobile first) */
+
+#header{
+  background-color: var(--color-black);
+  color: var(--color-emphasis);
+}
+.container{
+  width: 100%;
+  background-color: var(--color-white);
+}
+.column{
+  width: 100%;
+  background-color: var(--color-white);
+}
+.main{
+  width:100%;
+}
+.side{
+  width:100%;
+}
+.class{
+  width: 100%;
+}
+.row:after:{
+  content: "";
+  display: table;
+  clear:both;
+}
+.gallerycloud{}
+.tagcaption{
+  color: var(--color-black);
+}
+
+div.classgrid{
+  display: table-cell;
+  float: left;
+  padding: .6em;
+  margin: .1em;
+  text-align: center;
+  border: 1px solid var(--color-gray);
+  border-radius: 2.5%;
+}
+
+div.classgrid:hover{
+  background-color: var(--color-gray);
+}
+
+/* -- Gallery clouds -- */
+.tagcaption{font-size: 250%; padding: 0; margin: 0 0 .5em 0; border: none;}
+
+.gallerycloud{
+ font-size: 50%;
+ background-color: var(--color-gray);
+ margin:.1em;
+ padding:.6em;
+ border-radius: .25em;
+ line-height:2.4em;
+ word-spacing:normal;
+ letter-spacing:normal;
+ text-transform:none;
+ text-align:justify;
+ text-indent:0
+}
+
+.gallerycloud a:link{text-decoration:none}
+.gallerycloud a:visited{text-decoration:none}
+.gallerycloud a:hover{color:white;background-color:#05f}
+.gallerycloud a:active{color:white;background-color:#03d}
+.wrd{padding:0;position:relative}.wrd a{text-decoration:none}
+
+.tagcloud0{font-size:1.0em;color:red;z-index:10}
+.tagcloud0 a{color:red;}
+.tagcloud1{font-size:1.4em;color:green;z-index:9}
+.tagcloud1 a{color:green}
+.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}
+.tagcloud2 a{color:#86A0DC}
+.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}
+.tagcloud3 a{color:#86A0DC}
+.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}
+.tagcloud4 a{color:#607EC5}
+.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}
+.tagcloud5 a{color:#607EC5}
+.tagcloud6{font-size:3.3em;color:yellow;z-index:4}
+.tagcloud6 a{color:yellow}
+.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}
+.tagcloud7 a{color:#395CAE}
+.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}
+.tagcloud8 a{color:#264CA2}
+.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}
+.tagcloud9 a{color:#133B97}
+.tagcloud10{font-size:4.5em;color:yellow;z-index:0}
+.tagcloud10 a{color:yellow}
+
+
+@media screen and (min-width: 898px){
+
+  h1{font-size: 2.369em;}
+  h2{font-size: 1.777em;}
+  h3{font-size: 1.333em;}
+
+  #navigation li{
+    display: inline-block;
+  }
+  #navigation a{
+    border: .1em solid var(--color-white);
+    border-radius: 2.5%;
+    margin: .1em;
+  }
+  #profile{
+    height: inherit;
+    width: 200px;
+    float: left;
+  }
+  #profile img{
+    display: block;
+    height: 200px;
+    width: 200px;
+  }
+  #profile li, #profile a, #profile p{
+    display: block; clear: both;
+  }
+  /* Column layout and gallery resizes for medium-size and up  */
+  html{
+    margin 0 auto;
+    padding:1.618%;
+  }
+  main.container{
+    width: 1344px;
+  }
+  .column{
+    float: left;
+    padding: .6em;
+  }
+  .column.side{
+    width: 23em;
+  }
+  .column.main{
+    width: 36em;
+  }
+  .column.class{
+    width: 100%;
+  }
