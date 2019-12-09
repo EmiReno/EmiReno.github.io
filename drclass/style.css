@@ -241,4 +241,5 @@ div.classgrid:hover{
   }
   .column.class{
     width: 100%;
+    max-width: 898px;
   }
