@@ -220,23 +220,27 @@ div.classgrid:hover{
   }
 
   #header, #navigation{
-    max-width: 1344px;
+    max-width: 1344px; /* why this width? */
   }
   #navigation {
     padding-bottom: 0.777em;
-    padding-left: 0.777em;
   }
   #navigation li{
     display: inline-block;
-  }
-  #navigation a{
     border-left: .1em solid var(--color-white);
     border-right: .1em solid var(--color-white);
     border-top: none;
     border-bottom: none;
     border-radius: 2.5%;
-    margin: .1em;
   }
+
+  #navigation a{
+    border-top: none;
+  }
+
+  #navigation li:first-child{border-left: none;}
+  #navigation li:last-child{border-right: none;}
+
   #profile{
     padding-bottom: 99999px; margin-bottom: -99999px;
     padding-top: 2.369em;
@@ -254,7 +258,6 @@ div.classgrid:hover{
   }
   /* Column layout and gallery resizes for medium-size and up  */
   html{
-    margin 0 auto;
     padding: 0 1.618em 1.618em 1.618em;
   }
   .container{
