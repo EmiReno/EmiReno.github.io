@@ -20,7 +20,7 @@ html{
   --color-white: #eeeae3;
   --color-gray: #908d8e;
   --color-emphasis: #3E76E5;
-  --color-link: #8a816f;
+  --color-link: #bdb7ac;
 }
 
 /* Typography past base */
@@ -212,6 +212,10 @@ div.classgrid:hover{
 .tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}
 .tagcloud10 a{color:#002A8B}
 
+.gallerycloud.index{
+  margin: 0 auto;
+  width: 68%;
+}
 
 @media screen and (min-width: 898px){
 
