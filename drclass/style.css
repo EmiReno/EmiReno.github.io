@@ -56,6 +56,11 @@ cite, blockquote, em{
   font-style: italic;
 }
 
+blockquote{
+  margin-left: 1.222em;
+  padding-bottom: 0.622em;
+}
+
 /* Navigation styles are mobile-first */
 #navigation ul, #profile ul{
   list-style-type: none;
