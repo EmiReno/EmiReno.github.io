@@ -214,8 +214,8 @@ div.classgrid:hover{
 .tagcloud10 a{color:#002A8B}
 
 .gallerycloud.index{
-  margin: 0 auto;
-  width: 68%;
+  margin-top: 4.333em;
+  font-size: 70%;
 }
 
 @media screen and (min-width: 898px){
