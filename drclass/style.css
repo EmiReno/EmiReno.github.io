@@ -56,6 +56,11 @@ cite, blockquote, em{
   font-style: italic;
 }
 
+strong{
+  font-weight: bold;
+  color: red;
+}
+
 blockquote{
   margin-left: 1.222em;
   padding-bottom: 0.622em;
