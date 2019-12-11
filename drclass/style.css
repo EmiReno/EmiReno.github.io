@@ -230,8 +230,8 @@ div.classgrid:hover{
   h3{font-size: 1.333em;}
 
   div.classgrid img{
-    width: 200px;
-    height: 200px;
+    width: 9em;
+    height: 9em;
   }
 
   #header, #navigation{
@@ -291,5 +291,6 @@ div.classgrid:hover{
     width: 36em;
   }
   .column.class{
+    width: 36em;
   }
 }
