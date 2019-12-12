@@ -16,10 +16,10 @@ html{
 }
 /* color variables */
 :root {
-  --color-black: #241f25;
+  --color-black: #191A61;  /* -- this will go deep purple */
   --color-white: #eeeae3;
-  --color-gray: #908d8e;
-  --color-emphasis: #3E76E5;
+  --color-gray: #908d8e;  /* need to change it */
+  --color-emphasis: #EE6666;  /* -- this will go pinky --*/
   --color-link: #bdb7ac;
 }
 
@@ -176,7 +176,7 @@ div.classgrid:hover{
 
 .gallerycloud{
  font-size: 50%;
- background-color: var(--color-link);
+ background-color: #C5f5cb;
  border: .1em solid var(--color-black);
  margin:.1em;
  margin-bottom: 0.622em;
@@ -195,28 +195,28 @@ div.classgrid:hover{
 .gallerycloud a:hover{color:white;background-color:#05f}
 .gallerycloud a:active{color:white;background-color:#03d}
 .wrd{padding:0;position:relative}.wrd a{text-decoration:none}
-.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}
-.tagcloud0 a{color:#ACC1F3}
-.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}
-.tagcloud1 a{color:#ACC1F3}
-.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}
-.tagcloud2 a{color:#86A0DC}
-.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}
-.tagcloud3 a{color:#86A0DC}
-.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}
-.tagcloud4 a{color:#607EC5}
-.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}
-.tagcloud5 a{color:#607EC5}
-.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}
-.tagcloud6 a{color:#4C6DB9}
-.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}
-.tagcloud7 a{color:#395CAE}
-.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}
-.tagcloud8 a{color:#264CA2}
-.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}
-.tagcloud9 a{color:#133B97}
-.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}
-.tagcloud10 a{color:#002A8B}
+.tagcloud0{font-size:1.0em;color:var(--color-black);z-index:10}
+.tagcloud0 a{color:var(--color-black)}
+.tagcloud1{font-size:1.4em;color:var(--color-black);z-index:9}
+.tagcloud1 a{color:var(--color-black)}
+.tagcloud2{font-size:1.8em;color:var(--color-black);z-index:8}
+.tagcloud2 a{color:var(--color-black)}
+.tagcloud3{font-size:2.2em;color:var(--color-black);z-index:7}
+.tagcloud3 a{color:var(--color-black)}
+.tagcloud4{font-size:2.6em;color:var(--color-black);z-index:6}
+.tagcloud4 a{color:var(--color-black)}
+.tagcloud5{font-size:3.0em;color:var(--color-black);z-index:5}
+.tagcloud5 a{color:var(--color-black)}
+.tagcloud6{font-size:3.3em;color:var(--color-black);z-index:4}
+.tagcloud6 a{color:var(--color-black)}
+.tagcloud7{font-size:3.6em;color:var(--color-black);z-index:3}
+.tagcloud7 a{color:var(--color-black)}
+.tagcloud8{font-size:3.9em;color:var(--color-black);z-index:2}
+.tagcloud8 a{color:var(--color-black)}
+.tagcloud9{font-size:4.2em;color:var(--color-black);z-index:1}
+.tagcloud9 a{color:var(--color-black)}
+.tagcloud10{font-size:4.5em;color:var(--color-black);z-index:0}
+.tagcloud10 a{color:var(--color-black)}
 
 .gallerycloud.index{
   margin-top: 4.333em;
